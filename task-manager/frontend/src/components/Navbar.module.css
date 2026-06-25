@@ -1,0 +1,6 @@
+.nav { display: flex; align-items: center; justify-content: space-between; padding: 0 2rem; height: 64px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+.brand { font-size: 1.3rem; font-weight: 700; color: #667eea; }
+.right { display: flex; align-items: center; gap: 1rem; }
+.name { font-size: 0.9rem; color: #4a5568; font-weight: 500; }
+.logoutBtn { padding: 0.4rem 1rem; background: transparent; border: 2px solid #667eea; color: #667eea; border-radius: 8px; font-size: 0.85rem; font-weight: 600; transition: all 0.2s; }
+.logoutBtn:hover { background: #667eea; color: #fff; }
